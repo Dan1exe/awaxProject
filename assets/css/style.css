@@ -1,4 +1,23 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+header{
+    height: 100px;
+    background-color: black;
+}
+.header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+}
+.logoimg{
+    width: 80px;
+    height: 80px;
+    background-color:#b28756 ;
 }
