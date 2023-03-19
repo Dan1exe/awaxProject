@@ -566,3 +566,112 @@ margin-top: 30px;
 .tp:hover{
     background-color: #b28756;
 }
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 111, 34);
+}
+.section-body--box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-projects--box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caixa{
+    margin-right: 60px;
+}
+.caixaT {
+    display: inline-block;
+    flex-direction: column;
+   
+}
+.caixaT img {
+    vertical-align: middle;
+    width: 27px;
+    height: 23px;
+}
+.caixaT span{ 
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.caixaT .txt{
+    padding: 3px;
+    padding-bottom: 8px;
+    color: #8b8a8a;
+    margin-left: 36px;
+    font-size: 12px;
+}
+.line{
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    margin: 20px 0;
+    width: 100%;
+}
+.section-body--box .sliders-pointers{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.section-body--box  .pointer{
+        width: 15px;
+        height: 15px;
+        border: 2px solid #b28756;
+        border-radius: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor:pointer;
+    }
+.section-body--box  .pointer.active{
+        background-color: #b28756;;
+}
+
+
+
+.SM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-title--SM{
+    color: #f7f7f7;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-desc--SM{
+    font-size: 12px;
+    font-weight: 600;
+    color: #8b8a8a;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.section-body--SM{
+}
+.section-service--SM {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    color: #b28756;
+}
+.section-service--SM .linha{
+    margin:20px 0 20px 0;
+    border: 1px solid #999;
+}
